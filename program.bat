@@ -19,7 +19,7 @@ goto :menu
 @REM Funkcja wlacza skrypt main.py, ktory uruchamia skrypty wykonujace zadanie oraz tworzenie strony, nastepnie ta strona zostaje otwarta w programie Google Chrome
 :runScript
 call main.py
-start chrome.exe G:\projekcik\projekt\index.html
+start index.html
 pause
 cls
 goto menu
